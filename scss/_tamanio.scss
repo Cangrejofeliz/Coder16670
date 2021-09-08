@@ -1,0 +1,49 @@
+$vista:desktop;
+
+.tabla {
+	@if $vista == desktop{
+		td {
+			font:{
+				size: 20px;
+				weight: normal;
+			}
+
+		}
+		th {
+			font:{
+				size: 25px;
+				weight:bold;
+			}		
+		}
+	}
+
+	@else if $vista == mobile{
+		td{
+			font:{
+				size: 15px;
+				weight: normal;
+			}
+		}
+		th{
+			font:{
+				size: 20px;
+				weight:	bold;
+			}
+		}
+	}
+
+	@else {
+		td{
+			font:{
+				size:25px;
+				weight: normal;
+			}
+		}
+		th{
+			font:{
+				size: 30px;
+				weight:bold;
+			}
+		}
+	}
+}

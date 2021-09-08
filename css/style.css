@@ -1,0 +1,36 @@
+li {
+  background-color: #F09218; }
+
+body {
+  background-color: #9326FA; }
+
+.texto_parrafo {
+  background: #22E35C; }
+
+.texto_titulo {
+  background: #FAF619; }
+
+footer {
+  background: linear-gradient(to bottom, #E69719, #8C8C8C); }
+
+li {
+  border-radius: 15px;
+  margin: 10px; }
+
+.texto_parrafo {
+  font-size: 20px;
+  font-family: "Atkinson Hyperlegible";
+  font-weight: bold; }
+
+.texto_titulo {
+  font-size: 30px;
+  font-family: "Atkinson Hyperlegible";
+  font-weight: bold; }
+
+.tabla td {
+  font-size: 20px;
+  font-weight: normal; }
+
+.tabla th {
+  font-size: 25px;
+  font-weight: bold; }

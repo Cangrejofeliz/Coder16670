@@ -1,0 +1,30 @@
+$azul:#199BFA;
+$negro:black;
+$naranja:#F09218;
+$violeta:#9326FA;
+$verde:#22E35C;
+$fontsize:20px;
+$fontfamily: "Atkinson Hyperlegible";
+
+li{
+border-radius: 15px;
+ margin: 10px;
+ }
+
+.texto{
+    &_parrafo{
+    font-size:$fontsize;
+    font-family:$fontfamily;
+    font-weight:bold;
+    }
+    &_titulo{
+    font-size:30px;
+    font-family:$fontfamily;
+    font-weight: bold;
+
+    }
+}
+
+
+
+

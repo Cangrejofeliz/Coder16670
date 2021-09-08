@@ -1,0 +1,28 @@
+$azul:#199BFA;
+$negro:black;
+$naranja:#F09218;
+$violeta:#9326FA;
+$verde:#22E35C;
+$amarillo:#FAF619;
+$fontsize:20px;
+$fontfamily: "Atkinson Hyperlegible";
+
+li{background-color:$naranja;}
+
+body{background-color:$violeta;}
+
+.texto{
+    &_parrafo{
+    background:$verde;
+    }
+    &_titulo{
+      background:$amarillo;
+
+    
+    }    
+}
+
+ 	
+footer{background: linear-gradient(to bottom, #E69719, #8C8C8C);}
+
+
