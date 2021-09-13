@@ -1,6 +1,6 @@
 $azul:#199BFA;
 $negro:black;
-$naranja:#F09218;
+$naranja:#FF6600;
 $violeta:#9326FA;
 $verde:#22E35C;
 $amarillo:#FAF619;
@@ -28,5 +28,11 @@ footer{
 background: linear-gradient(to bottom, #E69719, #8C8C8C);
 }
 
+.tabla {
+  color:white;
+  background-color:$violeta;
+  border-color:$azul;
+  
 
+}
 

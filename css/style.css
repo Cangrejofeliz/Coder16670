@@ -1,5 +1,5 @@
 li {
-  background-color: #F09218; }
+  background-color: #FF6600; }
 
 body {
   background-color: black; }
@@ -13,9 +13,14 @@ body {
 footer {
   background: linear-gradient(to bottom, #E69719, #8C8C8C); }
 
+.tabla {
+  color: white;
+  background-color: #9326FA;
+  border-color: #199BFA; }
+
 li {
-  border-radius: 15px;
-  margin: 10px; }
+  font-size: 20px;
+  font-family: "Atkinson Hyperlegible"; }
 
 .texto_parrafo {
   font-size: 20px;
@@ -60,3 +65,14 @@ li {
   top: 0;
   left: 0;
   min-height: 300px; }
+
+li {
+  border-radius: 15px;
+  margin: 10px; }
+
+.imgTabla {
+  display: block;
+  transition: all 3s; }
+
+.imgTabla:hover {
+  transform: scale(2.2); }
