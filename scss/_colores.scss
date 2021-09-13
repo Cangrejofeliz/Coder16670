@@ -6,10 +6,11 @@ $verde:#22E35C;
 $amarillo:#FAF619;
 $fontsize:20px;
 $fontfamily: "Atkinson Hyperlegible";
+$blanco:white;
 
 li{background-color:$naranja;}
 
-body{background-color:$violeta;}
+body{background-color:$negro;}
 
 .texto{
     &_parrafo{
@@ -23,6 +24,9 @@ body{background-color:$violeta;}
 }
 
  	
-footer{background: linear-gradient(to bottom, #E69719, #8C8C8C);}
+footer{
+background: linear-gradient(to bottom, #E69719, #8C8C8C);
+}
+
 
 

@@ -2,7 +2,7 @@ li {
   background-color: #F09218; }
 
 body {
-  background-color: white; }
+  background-color: black; }
 
 .texto_parrafo {
   background: #22E35C; }
@@ -27,6 +27,11 @@ li {
   font-family: "Atkinson Hyperlegible";
   font-weight: bold; }
 
+.titulo {
+  font-family: "Atkinson Hyperlegible";
+  font-weight: bold;
+  font-size: 30px; }
+
 .tabla td {
   font-size: 20px;
   font-weight: normal; }
@@ -34,3 +39,24 @@ li {
 .tabla th {
   font-size: 25px;
   font-weight: bold; }
+
+.productosFlex {
+  display: flex;
+  flexdirecction: row;
+  padding: 50px;
+  margin: 30px;
+  border: 15px; }
+
+.producto {
+  padding: 50px;
+  margin: 30px;
+  border: 15px; }
+
+.carousel .carousel-item {
+  height: 800px; }
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px; }

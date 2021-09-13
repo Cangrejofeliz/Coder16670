@@ -47,3 +47,38 @@ $vista:desktop;
 		}
 	}
 }
+
+
+	.productosFlex {
+
+		@if $vista == desktop{
+			display:flex;
+				flexdirecction: row;
+				padding:50px;
+				margin:30px;
+				border:15px;
+
+
+			}	
+		}
+
+	.producto {
+
+		@if $vista == desktop{
+				padding:50px;
+				margin:30px;
+				border:15px;
+
+		}
+	}
+
+.carousel .carousel-item {
+  height: 800px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
