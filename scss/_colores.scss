@@ -1,16 +1,18 @@
 $azul:#199BFA;
 $negro:black;
-$naranja:#FF6600;
+$naranja:#FF3A00;
 $violeta:#9326FA;
 $verde:#22E35C;
 $amarillo:#FAF619;
 $fontsize:20px;
 $fontfamily: "Atkinson Hyperlegible";
 $blanco:white;
+$fucsia:#FF00BA;
 
-li{background-color:$naranja;}
 
-body{background-color:$negro;}
+body{
+  background: linear-gradient(to right, $violeta, $fucsia, $violeta);
+}
 
 .texto{
     &_parrafo{

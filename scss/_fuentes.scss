@@ -5,10 +5,12 @@ $violeta:#9326FA;
 $verde:#22E35C;
 $fontsize:20px;
 $fontfamily: "Atkinson Hyperlegible";
+$fonttitulo:"Staatliches", cursive;
 
 li{
     font-size:20px;
-    font-family:$fontfamily
+    font-family:$fonttitulo;
+    font-weight:bold;
 
  }
 
@@ -34,4 +36,6 @@ li{
 
 
 
-
+.titulofont {
+    font-family:$fonttitulo
+}
