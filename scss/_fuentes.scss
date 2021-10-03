@@ -37,5 +37,19 @@ li{
 
 
 .titulofont {
-    font-family:$fonttitulo
+    font-family:$fonttitulo;
+    
+}
+
+h1 {
+    font-family:$fonttitulo;
+}
+
+.footerfuentes {
+    font-family: $fontfamily;
+    font-size:15px;
+}
+
+.footer-dark h3{
+    font-size:23px;
 }
