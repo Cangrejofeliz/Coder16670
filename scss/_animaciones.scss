@@ -6,3 +6,13 @@
 	.imgTabla:hover {
 		transform: scale(2.2);
 	}
+
+.aniNovedades {
+	
+	transition:all 3s;
+}	
+
+.novedades:hover {
+	transform: scale(1.2);
+	display:front;
+}

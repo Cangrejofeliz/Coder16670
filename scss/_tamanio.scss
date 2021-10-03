@@ -54,9 +54,11 @@ $vista:desktop;
 		@if $vista == desktop{
 			display:flex;
 				flexdirecction: row;
+				justify-content:space-around;
 				padding:50px;
 				margin:30px;
 				border:15px;
+				flex-wrap:wrap;
 
 
 			}	

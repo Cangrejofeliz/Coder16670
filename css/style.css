@@ -108,8 +108,12 @@ li {
 .titulofont {
   font-family: "Staatliches", cursive; }
 
-h1 {
-  font-family: "Staatliches", cursive; }
+.novedades {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  pading: 15px;
+  margin: 15px;
+  background-color: #B2A8B8; }
 
 .footerfuentes {
   font-family: "Atkinson Hyperlegible";
@@ -129,9 +133,11 @@ h1 {
 .productosFlex {
   display: flex;
   flexdirecction: row;
+  justify-content: space-around;
   padding: 50px;
   margin: 30px;
-  border: 15px; }
+  border: 15px;
+  flex-wrap: wrap; }
 
 .producto {
   padding: 50px;
@@ -167,3 +173,10 @@ nav {
 
 .imgTabla:hover {
   transform: scale(2.2); }
+
+.aniNovedades {
+  transition: all 3s; }
+
+.novedades:hover {
+  transform: scale(1.2);
+  display: front; }
