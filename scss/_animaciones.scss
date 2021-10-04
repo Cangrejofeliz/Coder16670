@@ -7,7 +7,7 @@
 		transform: scale(2.2);
 	}
 
-.aniNovedades {
+.aniNovedades  {
 	
 	transition:all 3s;
 }	
@@ -16,3 +16,10 @@
 	transform: scale(1.2);
 	display:front;
 }
+
+.producto:hover {
+	transform: scale(1.2);
+	display:front;
+	
+}
+

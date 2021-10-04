@@ -6,6 +6,9 @@ $verde:#22E35C;
 $fontsize:20px;
 $fontfamily: "Atkinson Hyperlegible";
 $fonttitulo:"Staatliches", cursive;
+$gris:#B2A8B8;
+$amarillo:#FFC443;
+$turquesa:#006CFF;
 
 li{
     font-size:20px;
@@ -46,7 +49,15 @@ li{
     text-align:center;
     pading:15px;
     margin:15px;
-    background-color:#B2A8B8;
+    background-color:$gris;
+}
+
+.novedadesTitulo{
+    font-family:$fonttitulo;
+    text-align:center;
+    pading:15px;
+    margin:15px;
+    background-color:$amarillo;
 }
 
 .footerfuentes {
@@ -56,4 +67,42 @@ li{
 
 .footer-dark h3{
     font-size:23px;
+}
+
+.tituloUbi{
+    font-family:$fonttitulo;
+    background-color:$amarillo;
+}
+
+.parrafoUbi {
+     weight:bold;
+     background-color:$turquesa;
+     font-size:25px;
+     height:400px;
+     padding:100px;
+
+}
+
+.producto {
+    
+    font-family:$fonttitulo;
+    text-align:center;
+    pading:15px;
+    margin:15px;
+    background-color:$gris;
+
+}
+
+.productosTitulo{
+    background-color:$amarillo;
+    border-radius:20px;
+    font-family:$fonttitulo;
+    weight:bold;
+    
+
+}
+
+.textoNosotros {
+    font-family:$fontfamily;
+    weight:bold;
 }

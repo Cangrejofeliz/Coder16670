@@ -3,11 +3,12 @@ $negro:black;
 $naranja:#FF3A00;
 $violeta:#9326FA;
 $verde:#22E35C;
-$amarillo:#FAF619;
+$amarillo:#FFC443;
 $fontsize:20px;
 $fontfamily: "Atkinson Hyperlegible";
 $blanco:white;
 $fucsia:#FF00BA;
+
 
 
 body{
@@ -123,4 +124,8 @@ body{
   opacity:0.3;
   font-size:13px;
   margin-bottom:0;
+}
+
+.novedadesTitulo {
+  background-color:$amarillo;
 }

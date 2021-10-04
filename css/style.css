@@ -5,7 +5,7 @@ body {
   background: #22E35C; }
 
 .texto_titulo {
-  background: #FAF619; }
+  background: #FFC443; }
 
 .tabla {
   color: white;
@@ -85,6 +85,9 @@ body {
   font-size: 13px;
   margin-bottom: 0; }
 
+.novedadesTitulo {
+  background-color: #FFC443; }
+
 li {
   font-size: 20px;
   font-family: "Staatliches", cursive;
@@ -115,12 +118,47 @@ li {
   margin: 15px;
   background-color: #B2A8B8; }
 
+.novedadesTitulo {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  pading: 15px;
+  margin: 15px;
+  background-color: #FFC443; }
+
 .footerfuentes {
   font-family: "Atkinson Hyperlegible";
   font-size: 15px; }
 
 .footer-dark h3 {
   font-size: 23px; }
+
+.tituloUbi {
+  font-family: "Staatliches", cursive;
+  background-color: #FFC443; }
+
+.parrafoUbi {
+  weight: bold;
+  background-color: #006CFF;
+  font-size: 25px;
+  height: 400px;
+  padding: 100px; }
+
+.producto {
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  pading: 15px;
+  margin: 15px;
+  background-color: #B2A8B8; }
+
+.productosTitulo {
+  background-color: #FFC443;
+  border-radius: 20px;
+  font-family: "Staatliches", cursive;
+  weight: bold; }
+
+.textoNosotros {
+  font-family: "Atkinson Hyperlegible";
+  weight: bold; }
 
 .tabla td {
   font-size: 20px;
@@ -133,7 +171,7 @@ li {
 .productosFlex {
   display: flex;
   flexdirecction: row;
-  justify-content: space-around;
+  justify-content: center;
   padding: 50px;
   margin: 30px;
   border: 15px;
@@ -144,8 +182,13 @@ li {
   margin: 30px;
   border: 15px; }
 
-.carousel .carousel-item {
-  height: 800px; }
+.tales {
+  width: 100%; }
+
+.carousel-item .img-fluid {
+  width: 100%;
+  height: 100%;
+  position: center; }
 
 .item img {
   position: absolute;
@@ -167,6 +210,44 @@ nav {
 .titulofont {
   font-size: 35px; }
 
+.tituloUbi {
+  padding: 80px;
+  margin: 80px;
+  text-align: center;
+  border-radius: 20px; }
+
+.mapa {
+  padding: 40px;
+  margin: 70px; }
+
+.flexUbi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around; }
+
+.productosTitulo {
+  padding: 80px;
+  margin: 80px; }
+
+.dragonite {
+  margin: 80px 40px 80px 80px;
+  border-radius: 50px; }
+
+.nosotrosFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around; }
+
+.textoNosotros {
+  text-align: center;
+  background-color: #FFC443;
+  font-size: 25px;
+  height: 400px;
+  padding: 100px;
+  weight: bold; }
+
 .imgTabla {
   display: block;
   transition: all 3s; }
@@ -178,5 +259,9 @@ nav {
   transition: all 3s; }
 
 .novedades:hover {
+  transform: scale(1.2);
+  display: front; }
+
+.producto:hover {
   transform: scale(1.2);
   display: front; }
