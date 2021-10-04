@@ -128,4 +128,14 @@ body{
 
 .novedadesTitulo {
   background-color:$amarillo;
+  }
+
+.formulario{
+  display:flex;
+  justify-content:left;
+  padding: 90px 0px 0px 0px;
+  background-color:black;
+  color: white;
+  weight:bold;
+  widht:100%
 }

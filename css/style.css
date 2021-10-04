@@ -88,6 +88,15 @@ body {
 .novedadesTitulo {
   background-color: #FFC443; }
 
+.formulario {
+  display: flex;
+  justify-content: left;
+  padding: 90px 0px 0px 0px;
+  background-color: black;
+  color: white;
+  weight: bold;
+  widht: 100%; }
+
 li {
   font-size: 20px;
   font-family: "Staatliches", cursive;
@@ -247,6 +256,13 @@ nav {
   height: 400px;
   padding: 100px;
   weight: bold; }
+
+.formularioGrid {
+  display: grid;
+  height: 600px; }
+
+.consulta {
+  height: 200px; }
 
 .imgTabla {
   display: block;
