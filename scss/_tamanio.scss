@@ -55,8 +55,8 @@ $vista:desktop;
 			display:flex;
 				flexdirecction: row;
 				justify-content:center;
-				padding:50px;
-				margin:30px;
+				padding:0px;
+				margin:00px;
 				border:15px;
 				flex-wrap:wrap;
 
@@ -132,15 +132,19 @@ border-radius: 15px;
 }    
 
 .productosTitulo {
-	padding:80px;
-	margin:80px;
+	padding-top: 80px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  	
 
 
 }
 
 
 .dragonite {
-	
+	height:600px;
+	widht:700px;
 	margin:80px 40px 80px 80px;
 	border-radius:50px;
 

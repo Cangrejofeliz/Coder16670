@@ -92,7 +92,7 @@ body {
   display: flex;
   justify-content: left;
   padding: 90px 0px 0px 0px;
-  background-color: black;
+  background-color: #B093C5;
   color: white;
   weight: bold;
   widht: 100%; }
@@ -181,8 +181,8 @@ li {
   display: flex;
   flexdirecction: row;
   justify-content: center;
-  padding: 50px;
-  margin: 30px;
+  padding: 0px;
+  margin: 00px;
   border: 15px;
   flex-wrap: wrap; }
 
@@ -236,10 +236,14 @@ nav {
   align-content: space-around; }
 
 .productosTitulo {
-  padding: 80px;
-  margin: 80px; }
+  padding-top: 80px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
 
 .dragonite {
+  height: 600px;
+  widht: 700px;
   margin: 80px 40px 80px 80px;
   border-radius: 50px; }
 
